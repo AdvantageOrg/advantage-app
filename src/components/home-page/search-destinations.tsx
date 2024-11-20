@@ -12,7 +12,7 @@ import {
 
 export const SearchDestinations = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 pb-8 pt-16">
       <div className="relative z-10 rounded-xl bg-white p-4 shadow-lg sm:p-6 md:p-8">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-2">
