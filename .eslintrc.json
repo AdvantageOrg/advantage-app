@@ -8,7 +8,7 @@
     "plugin:tailwindcss/recommended"
   ],
   "plugins": ["tailwindcss"],
-  "ignorePatterns": ["components/ui/*"],
+  "ignorePatterns": ["src/components/ui/*"],
   "rules": {
     "@next/next/no-html-link-for-pages": "off",
     "tailwindcss/no-custom-classname": "off",
@@ -20,7 +20,7 @@
       "config": "tailwind.config.js"
     },
     "next": {
-      "rootDir": ["app/*/"]
+      "rootDir": ["src/*/"]
     }
   },
   "overrides": [
